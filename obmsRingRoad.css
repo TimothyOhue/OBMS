@@ -1,0 +1,56 @@
+body {
+	background: #eda;
+	
+}
+
+#welcome {
+	text-align: center;
+	color:blue;
+	font-size: 50px;
+	font-family: fantasy;
+	text-transform: uppercase;
+	background: #eda;
+	height: 40px;
+
+}
+#ght{
+	text-align: center;
+	color: #eda;
+	font-size: 30px;
+	font-family: fantasy;
+	text-transform: capitalize;
+}
+
+p {
+	font-size: 30px;
+	font-family: cursive;
+	color: blue;
+}
+
+h6 {
+	text-align: right;
+}
+
+#opening {
+	font-size: 30px;
+}
+
+#marq {
+	background: blue;
+	color: #edb;
+	font-size: 40px;
+	font-family: cursive; 
+	font-weight: bolder;
+
+}
+.container {
+  position: relative;
+  text-align:left;
+  color:black;
+}
+
+/* Bottom left text */
+
+/* Top left text */
+
+/* Top right text */

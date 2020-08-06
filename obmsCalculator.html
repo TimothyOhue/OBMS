@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="calculator.css">
+		<a href="index.html">Home</a>
+		<title> calculator app</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			alert("Welcome to the calculator ");
+		</script>
+		<h1><!-- My first calculator --></h1>
+		<script type="text/javascript">
+			function calcuNum(result){
+				form.displayResult.value=form.displayResult.value+result;	
+				}
+		</script>
+			<div class="container">
+				<form name ="form">
+					<div class="display">
+						<input type="text" name="displayResult" placeholder="0">
+					</div>
+					<div class="buttons">
+						<div class="row">
+							<input type="button" name="b7" value="7" onClick="calcuNum(b7.value)">
+							<input type="button" name="b8" value="8" onClick="calcuNum(b8.value)" >
+							<input type="button" name="b9" value="9" onClick="calcuNum(b9.value)" >
+							<input type="button" name="mulb" value="*" onClick="calcuNum(mulb.value)">
+						</div>
+					<div class="row">
+							<input type="button" name="b4" value="4" onClick="calcuNum(b4.value)">
+							<input type="button" name="b5" value="5" onClick="calcuNum(b5.value)" >
+							<input type="button" name="b6" value="6" onClick="calcuNum(b6.value)" >
+							<input type="button" name="divb" value="/" onClick="calcuNum(divb.value)">
+						</div>
+
+						<div class="row">
+							<input type="button" name="b1" value="1" onClick="calcuNum(b1.value)">
+							<input type="button" name="b2" value="2" onClick="calcuNum(b2.value)" >
+							<input type="button" name="b3" value="3" onClick="calcuNum(b3.value)" >
+							<input type="button" name="addb" value="+" onClick="calcuNum(addb.value)">
+						</div>
+
+						<div class="row">
+							<input type="button" name="b0" value="0" onClick="calcuNum(b0.value)">
+							<input type="button" name="bdot" value="." onClick="calcuNum(bdot.value)" >
+							<input type="button" name="equal" value="=" onClick="displayResult.value=eval(displayResult.value)" >
+							<input type="button" name="subb" value="-" onClick="calcuNum(subb.value)">
+						</div>
+					</div>
+				</form>
+			</div>
+				<a href="	obms.html"></a>
+	</body>
+</html>
